@@ -1,0 +1,26 @@
+.header{
+	padding-bottom: 15px; 
+}
+hr{
+	border: 2px solid #D22323;
+	margin: 0;
+}
+.logo{
+	margin: 17px 0 0 20px;
+}
+.contact{
+	width: 100%;
+}
+.contact .left{
+	float: left;
+	padding: 28px 10px;
+}
+.contact .right{
+	float: left;
+	padding: 28px 10px;
+}
+.nav_bg{
+	background-color: #FD5B5B;
+	width: 100%;
+	height:auto;
+}

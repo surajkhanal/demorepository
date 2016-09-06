@@ -1,0 +1,28 @@
+.header{
+	border-top: 6px solid #C90035;
+}
+.img-logo{
+	width: 46%;
+    margin: 23px 0 0 90px;
+}
+.navbar-default {
+    background-color: #c90035;
+}
+.navbar {
+    border:none;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #fff;
+}
+@media (min-width: 768px){
+ .navbar {
+    border-radius: 0px;
+}
+}
+
+.aboutJoski{
+	background-color: #C90035;
+}

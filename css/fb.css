@@ -1,0 +1,100 @@
+body{
+	background-color: #E9EAED;
+
+}
+.header{
+	height: 50px;
+	background: linear-gradient(#3B5998, #4E69A2); /* Standard syntax */
+	
+}
+.post-box{
+	border:1px solid #DFE0E4;
+	border-bottom: 1px solid #D0D1D5;
+	border-radius: 3px;
+	display: block;
+	width: 40%;
+	background-color: #fff;
+	height: auto;
+	margin-left: 20%;
+	word-wrap: break-word;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.post-box .divider{
+	bottom: 0;
+	margin-bottom: 2px;
+}
+.post-head{
+	padding: 12px;
+}
+.post-head img{
+	width: 40px;
+	height: 40px;
+
+}
+.post-head span{
+	padding-left: 4px;
+}
+.post-head a{
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 1.4em;
+}
+.post-head .user-name{
+	color: #3b5998;
+}
+.post-head .post-time{
+	font-size: 12px;
+	font-weight: lighter;
+	color: #9197a3;
+	font-family: arial;
+}
+.post-head .post-time .icons{
+	background-image: url(images/icon.png);
+}
+.post-content{
+	padding: 0px 12px;
+}
+.post-content img{
+	margin-top: 5px;
+}
+
+
+
+
+.post-action{
+	padding:8px 12px;
+}
+.post-action .like{
+	margin-right: 10px;
+	display: inline-block;
+}
+.post-action .like a{
+	color:#7f7f7f;
+	font-family: helvetica, arial, sans-serif;
+	font-size: 12px;
+}
+.post-action .like a::before{
+	background-image: url(../../images/icon.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 0 -213px;
+}
+.post-action .comment{
+	margin-right: 10px;
+	display: inline-block;
+}
+.post-action .comment a{
+	color:#7f7f7f;
+	font-family: helvetica, arial, sans-serif;
+	font-size: 12px;
+}
+.post-action .share{
+	margin-right: 10px;
+	display: inline-block;
+}
+.post-action .share a{
+	color:#7f7f7f;
+	font-family: helvetica, arial, sans-serif;
+	font-size: 12px;
+}
